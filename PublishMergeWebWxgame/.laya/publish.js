@@ -95,7 +95,7 @@ function extendConfig(config)
 	// version.json 里加入版本号
 	config.versionAddVer = true;
 	// 清理文件夹 release/wxgame
-	config.copyJsToWxgameIsClear = true;
+	config.copyJsToWxgameIsClear = false;
 	// 拷贝js文件到 release/wxgame
 	config.copyJsToWxgame = true;
 }
